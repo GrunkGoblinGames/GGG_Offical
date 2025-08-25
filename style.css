@@ -1,14 +1,15 @@
-p {
+
+* {
+    font-family: monospace;
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 h1 {
-    color: white;
-    text-align: center;
+    font-size: 60px;
 }
 h2 {
-    color: white;
-    text-align: center;
+    font-size: 30px;
 }
 
 /*
@@ -19,34 +20,30 @@ h2 {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: black;
+    background-image: url(StarsBackground.png);
     position: sticky; 
     top: 0;
 }
 .navbar nav {
     display: flex;
 }
-.navbar .logo {
+.navbar img {
     background-color: black;
     width: 50px;
-}
-.navbar .logo img {
     display: inline-flex;
     border-radius: 50px;
     height: 45px;
     width: 45px;
+    margin: 10px;
+    margin-right: 40px;
 }
 .navbar a {
     background-color: black;
-    border-radius: 20px;
+    border-radius: 18px;
     margin-right: 10px;
-    color: white;
     width: 75px;
-    padding: 15px;
-    text-align: center;
+    padding: 12px;
     font-size: x-large;
-    font-family: monospace;
-    text-decoration: none;
 }
 .navbar a:hover {
     background-color: rgb(15, 15, 15);
