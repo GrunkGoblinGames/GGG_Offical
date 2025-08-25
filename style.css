@@ -12,6 +12,26 @@ h2 {
     font-size: 30px;
 }
 
+.header-container {
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+    background-image: url(StarsBackground.png);
+    background-size: cover;
+    background-position: center center;
+}
+.header-container h1 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-container h2 {
+    max-width: 45%;
+    margin: auto;
+}
+
 /*
 ========================================
 ---------------- NAVBAR ----------------
@@ -63,8 +83,9 @@ h2 {
 .socialbar {
     position: fixed;
     display: grid;
-    top: 30%;
+    top: 50%;
     right: 0;
+    transform: translateY(-50%);
     background-color: rgba(38, 50, 65, 0.5);
     padding: 10px;
     border-top-left-radius: 20px;
