@@ -5,6 +5,8 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" type="text/css" target="_blank" href="style.css" />
 </head>
+<script src="carousel.js"></script>
+
 <header class="navbar">
     <div style="display: flex; margin: auto;">
         <nav nav-item id="navbarMenu" role="navigation">
@@ -32,12 +34,74 @@
     <a href="https://www.facebook.com/people/Gibley-Grunk/pfbid0GCqPSfVoisofzutTbNrt66NeDaotHQpZ1h2dNvdfPy2FqNA7FCHVgCDPDwX8Z9xvl"><img src="facebookIcon.png"></a>
 </aside>
 
-<body style="background-color: rgb(13, 25, 31);">
+<body>
     <div class="header-container">
         <h1>GrunkGoblinGames Offical Website</h1>
         <h2>Welcome to the homepage of GrunkGoblinGames, feel free to browse everything we have to offer.</h2>
     </div>
-    <p>Hello</p>
+
+    <section class="section-container" style="background-color: rgb(0, 8, 12);">
+        <h1>Featured Game</h1>
+        <div class="column">
+            <div class="bi-column">
+                <h2>Beneath the Mantle</h2>
+                <p>
+                    Beneath the Mantle, is a game where you have been commisioned to pilot the C.O.R.E., a large drill through the moon Enceladus, with the goal of discovering what is at its core, and returning your findings to AVA so they can pass the infomation on to their client. However the journey may not go as planned and you will have to adapt and maintain control of the vessel if you hope to make it back alive.
+                </p>
+                <a href="playtesters.html">Learn more</a>
+                <a href="playtesters.html">Join the Playtesting Team</a>
+            </div>
+            <div class="bi-column">
+                <div id="Image-Carousel" class="carousel-container">
+                    <div class="carousel-viewport">
+                    <button class="carousel-btn prev">❮</button>
+                        <div class="carousel-track">
+                            <img src="Teaser1.png">
+                            <img src="Teaser2.png">
+                            <img src="Teaser6.png">
+                            <img src="Teaser7.png">
+                        </div>
+                    </div>
+                    <button class="carousel-btn next">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 style="margin: 20px;">Meet the Team</h1>
+        <div class="dev-container">
+            <div class="dev-profile">
+                <h2>Aiden George</h2>
+                <h3>AidenAustrosaurus</h3>
+                <img src="Rex Profile Pic.png">
+                <h3>Programmer | 3D Artist</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate odio justo, id faucibus tellus pretium nec. Nullam fringilla euismod urna quis vehicula. Nunc tristique consequat pulvinar. Nulla luctus turpis sed erat posuere pharetra. Sed facilisis, dui et commodo rutrum, enim orci ultricies libero, quis consequat est sem ac nisl. Proin sapien mauris, consectetur at commodo id, accumsan at velit. Nulla facilisi. Aenean fringilla ut elit vitae posuere. Praesent id facilisis nisl. Nam massa velit, ultrices at justo in, hendrerit euismod erat. Nam vel metus ultrices, porta dui at, volutpat velit. Nam accumsan tincidunt blandit.</p>
+                <br>
+                <a href="playtesters.html">Learn More</a>
+            </div>
+            <div class="dev-profile">
+                <h2>Cody McDonald</h2>
+                <h3>Styx</h3>
+                <img src="Adrift.png">
+                <h3>Designer | Primary Artist</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate odio justo, id faucibus tellus pretium nec. Nullam fringilla euismod urna quis vehicula. Nunc tristique consequat pulvinar. Nulla luctus turpis sed erat posuere pharetra. Sed facilisis, dui et commodo rutrum, enim orci ultricies libero, quis consequat est sem ac nisl. Proin sapien mauris, consectetur at commodo id, accumsan at velit. Nulla facilisi.</p>
+                <br>
+                <a href="playtesters.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container">
+        <h2>New and Upcoming</h2>
+        <span>Beneth the Mantle beta release</span>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <span>Form</span>
+    </section>
+
 </body>
 
 <footer>
